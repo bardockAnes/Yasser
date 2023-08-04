@@ -4,17 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Style.css"></link>
+    <link rel="stylesheet" href="css/art.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Wellcome</h1>
-    <div>
-        <div class="clock">
-            <div class="hors hand"></div>
-            <div class="mint hand"></div>
-            <div class="second hand-red"></div>
-        </div>
+    <div class="hader">
+                          <nav>
+                                 <h1 class="logo"><span>lose</span>it</h1>
+                                 <div class="nav-list">
+                                     <ul id="menu">
+                                        <li><a href="">Home</a></li>
+                                        <li><a href="">prodit</a></li>
+                                        <li><a href="">Galery</a></li>
+                                        <li><a href="">About</a></li>
+                                        <li><a href="">Contact</a></li>
+                                     </ul>
+                                                    <div class="socil">
+                                                        <a href="#" onclick="openclose()"><i class="fa  fa-times"></i></a>
+                                                        <a href=""><i class="fa fa-facebook-square fa-lg"></i></a>
+                                                        <a href=""><i class="fa fa-instagram fa-spin fa-lg"></i></a>
+                                                        <a href="#" onclick="openclose()"><i class="fa  fa-bars"></i></a>
+                                                    </div>
+                                 </div>
+                         </nav>
+
+
+        <div class="main">
+            <h2>wellcome</h2>
+            <h1>to the salle</h1>
+            <p>the sesce start from here</p>
+            <a href="" class="buton">lern more</a>
+       </div>
+
+
+
+
     </div>
-    <script src="clock.js"></script>
+
+   
+<script>
+    let menu = document.getElementById("menu");
+
+
+function openclose(){
+menu.classList.toggle("obend");
+}
+
+
+</script>
 </body>
 </html>
