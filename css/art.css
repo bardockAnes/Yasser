@@ -220,3 +220,175 @@ ul.obend ~ .socil a:last-child{
 
 
 }
+@media(max-width:400px){
+    .nav-list{
+        position: absolute;
+    
+    }
+    .nav-list ul{
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        backdrop-filter: blur(5px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+       transition: right 0.5s;
+        border-left: 1px solid rgba(0, 0, 0, 0.29) ;
+    }
+    .nav-list ul li {
+        flex-basis: 30px;
+        flex-grow: 1;
+        max-height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        text-align: center;
+        flex: 1;
+    }
+    .nav-list ul.obend{
+       right: 40px;
+    }
+    .socil a:first-child,.socil a:last-child{
+       
+        position: fixed;
+        top: 0;
+        margin-top: 20px ;
+    }
+    .socil a:last-child{
+        display: block;
+    }
+    ul.obend ~ .socil a:first-child{
+        display: block;
+    }
+    ul.obend ~ .socil a:last-child{
+        display: none;
+    }
+    .main h2{
+        font-size: 45px;
+    }
+    .main h1{
+        font-size: 40px;
+    }
+    .hader{
+    background:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url("../images/gym img mr.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh; 
+        ;
+         
+        }
+        nav{
+            background-color: transparent;
+        }
+        
+        .space2{
+            display: flex;
+            flex-direction: column;
+           background-color: black;
+           align-items: center;
+           justify-content: center;
+           min-height: 100vh;
+           overflow: hidden;
+           flex-grow: 1;
+           flex-shrink: 1;
+        }
+        .space2 p{
+            color: aliceblue;
+            font-size: 30px;
+            max-width: 250px;
+            min-height: 600px;
+            text-align: center;
+        padding-top: 15px;
+            background-color: rgb(3, 94, 0);
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        .space2 .tag{
+            font-size: xx-large;
+        }
+        .space3{
+            display: flex;
+            flex-direction: column;
+           background-color: black;
+           align-items: center;
+           justify-content: center;
+           min-height: 100vh;
+           overflow: hidden;
+           flex-grow: 1;
+           flex-shrink: 1;
+        }
+        .space3 p{
+            color: aliceblue;
+            font-size: 30px;
+            max-width: 250px;
+            min-height: 600px;
+            text-align: center;
+        padding-top: 15px;
+            background-color: rgb(3, 94, 0);
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        .space3 .tag{
+            font-size: xx-large;
+        }
+        .space4{
+            display: flex;
+            flex-direction: column;
+           background-color: black;
+           align-items: center;
+           justify-content: center;
+           min-height: 100vh;
+           overflow: hidden;
+           flex-grow: 1;
+           flex-shrink: 1;
+        }
+        .space4 p{
+            color: aliceblue;
+            font-size: 30px;
+            max-width: 250px;
+            min-height: 600px;
+            text-align: center;
+        padding-top: 15px;
+            background-color: rgb(3, 94, 0);
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        .space4 .tag{
+            font-size: xx-large;
+        }
+        .space5{
+            display: flex;
+            flex-direction: column;
+           background-color: black;
+           align-items: center;
+           justify-content: center;
+           min-height: 100vh;
+           overflow: hidden;
+           flex-grow: 1;
+           flex-shrink: 1;
+        }
+        .space5 p{
+            color: aliceblue;
+            font-size: 30px;
+            max-width: 250px;
+            min-height: 600px;
+            text-align: center;
+        padding-top: 15px;
+            background-color: rgb(3, 94, 0);
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        .space5 .tag{
+            font-size: xx-large;
+        }
+        
+        
+
+    
+    }
