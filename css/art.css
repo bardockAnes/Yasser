@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Edu SA Beginner",sans-serif;
+}
+html{
+    background-color: lightseagreen;
+    color: white;
+}
+
+/*hader css*/
+
+.hader{
+    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url("../images/gym img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    
+    
+}
+nav{
+    padding: 1.5% 4%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.nav-list{
+   
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 40px;
+    
+}
+.logo span{
+    color: lightseagreen;
+    
+}
+ul{
+    display: flex;
+   margin: auto;
+   
+    list-style: none;
+}
+nav ul li{
+    
+    margin:0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    
+  
+}
+nav ul li a:hover{
+    color: lightseagreen;
+    
+}
+nav ul li a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: rgba(32, 178, 171, 0.5);
+    transition: 0.5s;
+    
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.socil a{
+    margin:0 5px ;
+}
+.socil a i{
+    transition: 0.5s;
+}
+.socil a i:hover{
+    color:lightseagreen;
+}
+.socil a:first-child,.socil a:last-child{
+    display: none;
+}
+
+/*main css*/
+
+.main{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    font-size: 72px;
+}
+.main h1{
+    font-size: 120px;
+    color: lightseagreen;
+    text-transform: uppercase;
+}
+.buton{
+    text-decoration: none;
+    border: 1px solid lightseagreen;
+    padding: 15px 35px;
+    margin-top:  45px;
+    transition: 1s;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 20px;
+    
+
+}
+.buton:hover{
+    background-color: rgb(32, 178, 171);
+   color: black;
+    border: rgba(0, 0, 0, 0.15) 1px solid ;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+/*css for tablet*/
+
+@media(max-width:900px){
+    
+    
+    .socil{
+        
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 40px;
+        backdrop-filter: blur(2px);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-left: rgba(0, 0, 0, 0.29) 1px solid;
+        
+    }.main h2{
+        font-size: 60px;
+    }
+    .main h1{
+        font-size: 80px;
+    }
+    
+    nav{
+        padding:5px 4%;
+    }
+}
+@media(max-width:750px){
+.nav-list{
+    position: absolute;
+
+}
+.nav-list ul{
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   transition: right 0.5s;
+    border-left: 1px solid rgba(0, 0, 0, 0.29) ;
+}
+.nav-list ul li {
+    flex-basis: 30px;
+    flex-grow: 1;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    text-align: center;
+    flex: 1;
+}
+.nav-list ul.obend{
+   right: 40px;
+}
+.socil a:first-child,.socil a:last-child{
+   
+    position: fixed;
+    top: 0;
+    margin-top: 20px ;
+}
+.socil a:last-child{
+    display: block;
+}
+ul.obend ~ .socil a:first-child{
+    display: block;
+}
+ul.obend ~ .socil a:last-child{
+    display: none;
+}
+.main h2{
+    font-size: 45px;
+}
+.main h1{
+    font-size: 40px;
+}
+
+
+
+}
