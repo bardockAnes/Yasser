@@ -208,6 +208,7 @@ nav ul li a:hover::after{
 }
 .space2 h1{
     font-size: 60px;
+    color: whitesmoke;
 }
 .space2 .space2Content{
     display: flex;
@@ -220,7 +221,7 @@ nav ul li a:hover::after{
 }
 .space2Content img{
     background-color: rgba(22, 198, 139, 0.382);
-    border-radius:  34% 66% 35% 65% / 60% 49% 51% 40%  ;
+    border-radius: 58% 42% 48% 52% / 39% 36% 64% 61%  ;
 
 }
 
