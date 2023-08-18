@@ -2,32 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
     font-family: "Edu SA Beginner",sans-serif;
 }
 html{
-    background-color: lightseagreen;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: red;
 }
 
 /*hader css*/
 
 .hader{
-    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url("../images/gym img.jpg");
+    /*background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url("../images/gym img.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     display: flex;
     overflow: hidden;
     flex-direction: column;
+    color: white;
     
     
 }
 nav{
-    padding: 1.5% 4%;
+    padding: 1% 4%;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.0);
+    box-shadow: 0px 0px 4px black
 }
 .nav-list{
    
@@ -41,10 +42,11 @@ nav{
 .logo{
     text-transform: uppercase;
     font-size: 40px;
+    color: black;
     
 }
 .logo span{
-    color: lightseagreen;
+    color: red;
     
 }
 ul{
@@ -54,29 +56,25 @@ ul{
     list-style: none;
 }
 nav ul li{
-    
-    margin:0 30px;
+    margin:0px 30px;
 }
 
 nav ul li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
     transition: 0.5s;
-    
-  
+    color: black;
 }
 nav ul li a:hover{
-    color: lightseagreen;
-    
+    color: red;
+
 }
 nav ul li a::after{
     content: "";
     display: block;
     width: 0;
-    height: 1px;
-    background-color: rgba(32, 178, 171, 0.5);
-    transition: 0.5s;
-    
+    height: 7px;
+    transition: 0.5s; 
 }
 nav ul li a:hover::after{
     width: 100%;
@@ -86,9 +84,10 @@ nav ul li a:hover::after{
 }
 .socil a i{
     transition: 0.5s;
+    color: black;
 }
 .socil a i:hover{
-    color:lightseagreen;
+    color:red;
 }
 .socil a:first-child,.socil a:last-child{
     display: none;
@@ -97,40 +96,79 @@ nav ul li a:hover::after{
 /*main css*/
 
 .main{
-    
     flex: 1;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    gap: 15%;
+    
+}
+.main .Qabout{
+    
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    height: 100%;
+    text-align: center;
+    gap: 20px;
+    
+}
+.aboutImg{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background: url(/images/ye.svg);
+   
+
+}
+.aboutImg3{
+    width: 500px;
+    height: 500px;
+    background: url(/images/ye.svg);
+    backdrop-filter: blur(10px);
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .main h2{
     font-size: 72px;
+    color: red;
 }
-.main h1{
-    font-size: 120px;
-    color: lightseagreen;
-    text-transform: uppercase;
+
+.main p{
+    color: black;
+    font-size: 25px;
 }
 .buton{
     text-decoration: none;
-    border: 1px solid lightseagreen;
+    border: 1px solid red;
     padding: 15px 35px;
     margin-top:  45px;
     transition: 1s;
     text-transform: uppercase;
     border-radius: 5px;
     font-size: 20px;
+    color: red;
     
 
 }
 .buton:hover{
-    background-color: rgb(32, 178, 171);
+    background-color: red;
    color: black;
     border: rgba(0, 0, 0, 0.15) 1px solid ;
     text-transform: uppercase;
     border-radius: 5px;
 }
+/*spaces*/
 .space2{
     display: flex;
     flex-direction: column;
