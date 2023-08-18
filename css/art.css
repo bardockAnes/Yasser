@@ -138,6 +138,10 @@ nav ul li a:hover::after{
     justify-content: center;
     align-items: center;
 }
+.aboutImg3 img{
+    border:2px solid black;
+    box-shadow: 0 0 4px black;
+}
 
 .main h2{
     font-size: 72px;
