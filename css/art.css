@@ -187,35 +187,48 @@ nav ul li a:hover::after{
 }
 /*spaces*/
 .space2{
+    background-color: black;
     display: flex;
     flex-direction: column;
-   background-color: black;
    align-items: center;
-   justify-content: center;
    min-height: 100vh;
    overflow: hidden;
    flex-grow: 1;
    flex-shrink: 1;
+   justify-content: space-around;
    
 }
 .space2 p{
     color: aliceblue;
-    font-size: 30px;
-    max-width: 250px;
-    min-height: 600px;
+    font-size: 25px;
+    max-width: 50%;
     text-align: center;
-padding-top: 15px;
-    background-color: rgb(3, 94, 0);
-    flex-grow: 1;
-    flex-shrink: 1;
+    justify-content: center;
+    line-height: 30px;
 }
-.space2 .tag{
-    font-size: xx-large;
+.space2 h1{
+    font-size: 60px;
 }
+.space2 .space2Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+.space2Content img{
+    background-color: rgba(22, 198, 139, 0.382);
+    border-radius:  34% 66% 35% 65% / 60% 49% 51% 40%  ;
+
+}
+
+
 .space3{
     display: flex;
     flex-direction: column;
-   background-color: black;
+   background-color: white;
    align-items: center;
    justify-content: center;
    min-height: 100vh;
