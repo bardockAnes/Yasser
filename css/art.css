@@ -224,33 +224,45 @@ nav ul li a:hover::after{
     border-radius: 58% 42% 48% 52% / 39% 36% 64% 61%  ;
 
 }
-
+/*space3*/
 
 .space3{
     display: flex;
     flex-direction: column;
    background-color: white;
    align-items: center;
-   justify-content: center;
+   justify-content: space-evenly;
    min-height: 100vh;
    overflow: hidden;
    flex-grow: 1;
    flex-shrink: 1;
+   padding: 50px;
+   
+} 
+.space3 h1{
+    color: red;
+    padding-bottom: 50px;
+    font-size: 50px;
+
+}
+.space3 h2{
+    color: black;
+    font-size: xx-large;
+    padding: 10px;
+}
+.space3 ul li strong{
+    color: darkblue;
+}
+.space3 ul li{
+    color: black;
+    padding: 20px;
+
 }
 .space3 p{
-    color: aliceblue;
-    font-size: 30px;
-    max-width: 250px;
-    min-height: 600px;
-    text-align: center;
-padding-top: 15px;
-    background-color: rgb(3, 94, 0);
-    flex-grow: 1;
-    flex-shrink: 1;
+    color: black;
 }
-.space3 .tag{
-    font-size: xx-large;
-}
+
+/*space4*/
 .space4{
     display: flex;
     flex-direction: column;
