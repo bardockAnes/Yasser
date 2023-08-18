@@ -85,7 +85,17 @@ nav ul li a:hover::after{
 .socil a i{
     transition: 0.5s;
     color: black;
+
 }
+.socil .insta i{
+ animation-duration: 2700ms;
+ 
+}
+.socil a i:hover{
+    animation-duration: 10000000ms;
+    font-size: 30px;
+    
+   }
 .socil a i:hover{
     color:red;
 }
@@ -169,10 +179,11 @@ nav ul li a:hover::after{
 }
 .buton:hover{
     background-color: red;
-   color: black;
+   color: rgb(255, 255, 255);
     border: rgba(0, 0, 0, 0.15) 1px solid ;
     text-transform: uppercase;
     border-radius: 5px;
+    border: #FF8000 1px solid;
 }
 /*spaces*/
 .space2{
