@@ -512,6 +512,160 @@ footer{
         padding: 30px 30px;
         }
         /*space2 mobile end*/
+        /*space3 resume mobile*/
+        .space3{
+            display: flex;
+            flex-direction: column;
+           background-color: white;
+           align-items: center;
+           justify-content: space-evenly;
+           min-height: 100vh;
+           overflow: hidden;
+           flex-grow: 1;
+           flex-shrink: 1;
+           padding: 50px;
+           
+        } 
+        .space3 h1{
+            text-align: center;
+            color: red;
+            padding-bottom: 50px;
+            font-size: 50px;
+        
+        }
+        .space3 h2{
+            text-align: center;
+            color: black;
+            font-size: xx-large;
+            padding: 10px;
+        }
+        .space3 ul li strong{
+            text-align: center;
+            color: darkblue;
+        }
+        .space3 ul li{
+            text-align: center;
+            color: black;
+            padding: 20px;
+        
+        }
+        .space3 ul .none{
+            display:none;
+        }
+    
+        .space3 p{
+            text-align: center;
+            color: black;
+        }
+        /*space3 resume mobile*/
+        /*contct section mobile*/
+        .contacts{
+            min-height: 65vh;
+            display: flex;
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-family: "Merienda", sans-serif;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+        }
+        .contact-social{
+            display: flex;
+            flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 43.5px;
+        padding-right: 15px;
+        gap: 20px;
+        
+        }
+        .contact-socialn {
+            text-decoration: none;
+            display: inline-flex;
+            flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        gap: 20px;
+        }
+        .contact-socialn a{
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            justify-content: center;
+            font-size: 30px;
+            padding: 9px;
+            
+        }
+        
+        #contact {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 50px;
+          }
+          
+          #contact h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+          
+          #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          #contact input[type="text"],
+          #contact input[type="email"],
+          #contact textarea {
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          }
+          
+          #contact textarea {
+            height: 150px;
+          }
+          
+          #contact button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          #contact button[type="submit"]:hover {
+            background-color: #45a049;
+          }
+          .allc{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+          }
+         
+          
+        /*footer*/
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-size: 18px;
+            border-top: 1px solid rgba(255, 255, 255, 0.234);
+        
+        }
+        
+        
+        /*contct section mobile end*/
         .contacts{
             flex-direction: column;
             justify-content: space-evenly;
