@@ -196,7 +196,7 @@ nav ul li a:hover::after{
    overflow: hidden;
    flex-grow: 1;
    flex-shrink: 1;
-   justify-content: space-around;
+   justify-content: space-evenly;
    
 }
 .space2 p{
@@ -204,7 +204,7 @@ nav ul li a:hover::after{
     font-size: 25px;
     max-width: 50%;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
     line-height: 35px;
 }
 .space2 h1{
