@@ -114,6 +114,7 @@ nav ul li a:hover::after{
     color: red;
     gap: 15%;
     
+    
 }
 .main .Qabout{
     
@@ -221,7 +222,6 @@ nav ul li a:hover::after{
     
 }
 .space2Content img{
-    background-color: rgba(22, 198, 139, 0.382);
     border-radius: 58% 42% 48% 52% / 39% 36% 64% 61%  ;
 
 }
@@ -371,96 +371,32 @@ footer{
 
 
 
-/*css for tablet*/
-
-@media(max-width:900px){
-    
-    
-    .socil{
-        
-        position: fixed;
-        top: 0;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        width: 40px;
-        backdrop-filter: blur(2px);
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        border-left: rgba(0, 0, 0, 0.29) 1px solid;
-        
-    }.main h2{
-        font-size: 60px;
-    }
-    .main h1{
-        font-size: 80px;
-    }
-    
-    nav{
-        padding:5px 4%;
-    }
-}
-@media(max-width:750px){
-.nav-list{
-    position: absolute;
-
-}
-.nav-list ul{
-    position: fixed;
-    top: 0;
-    right: -250px;
-    width: 250px;
-    height: 100vh;
-    backdrop-filter: blur(5px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   transition: right 0.5s;
-    border-left: 1px solid rgba(0, 0, 0, 0.29) ;
-}
-.nav-list ul li {
-    flex-basis: 30px;
-    flex-grow: 1;
-    max-height: 80px;
-    display: flex;
-    align-items: center;
-}
-.logo{
-    text-align: center;
-    flex: 1;
-}
-.nav-list ul.obend{
-   right: 40px;
-}
-.socil a:first-child,.socil a:last-child{
-   
-    position: fixed;
-    top: 0;
-    margin-top: 20px ;
-}
-.socil a:last-child{
-    display: block;
-}
-ul.obend ~ .socil a:first-child{
-    display: block;
-}
-ul.obend ~ .socil a:last-child{
-    display: none;
-}
-.main h2{
-    font-size: 45px;
-}
-.main h1{
-    font-size: 40px;
-}
 
 
 
-}
-@media(max-width:400px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+   body{
+    background-color: grey;
+   }
     .nav-list{
         position: absolute;
     
@@ -516,7 +452,7 @@ ul.obend ~ .socil a:last-child{
         font-size: 40px;
     }
     .hader{
-    background:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url("../images/gym img mr.jpg");
+
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 100vh; 
@@ -526,55 +462,60 @@ ul.obend ~ .socil a:last-child{
         nav{
             background-color: transparent;
         }
+
+        .main{
+            flex-direction: column;
+        }
+        /*space2 mobile*/
         
+       
         .space2{
+            background-color: black;
             display: flex;
             flex-direction: column;
-           background-color: black;
            align-items: center;
-           justify-content: center;
            min-height: 100vh;
            overflow: hidden;
            flex-grow: 1;
            flex-shrink: 1;
+           justify-content: space-evenly;
+           gap:70px ;
+           padding: 0 20px;
+           
         }
         .space2 p{
             color: aliceblue;
-            font-size: 30px;
-            max-width: 250px;
-            min-height: 600px;
+            font-size: 20px;
             text-align: center;
-        padding-top: 15px;
-            background-color: rgb(3, 94, 0);
-            flex-grow: 1;
-            flex-shrink: 1;
+            justify-content: center;
+            line-height: 35px;
+           min-width: 80%;
+           padding-bottom:50px ;
         }
-        .space2 .tag{
-            font-size: xx-large;
+        .space2 h1{
+            font-size: 60px;
+            color: whitesmoke;
+            padding: 20px 20px;
         }
-        .space3{
+        .space2 .space2Content{
             display: flex;
             flex-direction: column;
-           background-color: black;
-           align-items: center;
-           justify-content: center;
-           min-height: 100vh;
-           overflow: hidden;
-           flex-grow: 1;
-           flex-shrink: 1;
-        }
-        .space3 p{
-            color: aliceblue;
-            font-size: 30px;
-            max-width: 250px;
-            min-height: 600px;
+            justify-content: space-evenly;
             text-align: center;
-        padding-top: 15px;
-            background-color: rgb(3, 94, 0);
-            flex-grow: 1;
-            flex-shrink: 1;
+            align-items: center;
+            padding-bottom: 20px;
+            gap: 70px;
+            
         }
-        .space3 .tag{
-            font-size: xx-large;
+        .space2Content img{
+            border-radius: 58% 42% 48% 52% / 39% 36% 64% 61%  ;
+        padding: 30px 30px;
         }
+        /*space2 mobile end*/
+        .contacts{
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        
+      
     }
