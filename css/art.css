@@ -163,6 +163,7 @@ nav ul li a:hover::after{
 .main p{
     color: black;
     font-size: 25px;
+    line-height: 35px;
 }
 .buton{
     text-decoration: none;
@@ -204,7 +205,7 @@ nav ul li a:hover::after{
     max-width: 50%;
     text-align: center;
     justify-content: center;
-    line-height: 30px;
+    line-height: 35px;
 }
 .space2 h1{
     font-size: 60px;
@@ -263,55 +264,107 @@ nav ul li a:hover::after{
 }
 
 /*space4*/
-.space4{
+.contacts{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    font-family: "Merienda", sans-serif;
+    
+}
+.contact-social{
     display: flex;
     flex-direction: column;
-   background-color: black;
-   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
-   overflow: hidden;
-   flex-grow: 1;
-   flex-shrink: 1;
+align-items: center;
+justify-content: center;
+font-size: 43.5px;
+padding-right: 15px;
+gap: 20px;
+
 }
-.space4 p{
-    color: aliceblue;
-    font-size: 30px;
-    max-width: 250px;
-    min-height: 600px;
+.contact-socialn {
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+gap: 20px;
+}
+.contact-socialn a{
     text-align: center;
-padding-top: 15px;
-    background-color: rgb(3, 94, 0);
-    flex-grow: 1;
-    flex-shrink: 1;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 30px;
+    padding: 9px;
+    
 }
-.space4 .tag{
-    font-size: xx-large;
-}
-.space5{
+
+
+#contact {
+    text-align: center;
+    padding: 50px;
+    padding-right: 300px;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
     display: flex;
     flex-direction: column;
-   background-color: black;
-   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
-   overflow: hidden;
-   flex-grow: 1;
-   flex-shrink: 1;
-}
-.space5 p{
-    color: aliceblue;
-    font-size: 30px;
-    max-width: 250px;
-    min-height: 600px;
+    align-items: center;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact textarea {
+    height: 150px;
+  }
+  
+  #contact button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .allc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
     text-align: center;
-padding-top: 15px;
-    background-color: rgb(3, 94, 0);
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-.space5 .tag{
-    font-size: xx-large;
+    padding: 5px;
+    font-size: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.234);
+
 }
 
 
@@ -522,58 +575,4 @@ ul.obend ~ .socil a:last-child{
         .space3 .tag{
             font-size: xx-large;
         }
-        .space4{
-            display: flex;
-            flex-direction: column;
-           background-color: black;
-           align-items: center;
-           justify-content: center;
-           min-height: 100vh;
-           overflow: hidden;
-           flex-grow: 1;
-           flex-shrink: 1;
-        }
-        .space4 p{
-            color: aliceblue;
-            font-size: 30px;
-            max-width: 250px;
-            min-height: 600px;
-            text-align: center;
-        padding-top: 15px;
-            background-color: rgb(3, 94, 0);
-            flex-grow: 1;
-            flex-shrink: 1;
-        }
-        .space4 .tag{
-            font-size: xx-large;
-        }
-        .space5{
-            display: flex;
-            flex-direction: column;
-           background-color: black;
-           align-items: center;
-           justify-content: center;
-           min-height: 100vh;
-           overflow: hidden;
-           flex-grow: 1;
-           flex-shrink: 1;
-        }
-        .space5 p{
-            color: aliceblue;
-            font-size: 30px;
-            max-width: 250px;
-            min-height: 600px;
-            text-align: center;
-        padding-top: 15px;
-            background-color: rgb(3, 94, 0);
-            flex-grow: 1;
-            flex-shrink: 1;
-        }
-        .space5 .tag{
-            font-size: xx-large;
-        }
-        
-        
-
-    
     }
