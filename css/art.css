@@ -204,7 +204,7 @@ nav ul li a:hover::after{
     font-size: 25px;
     max-width: 50%;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
     line-height: 35px;
 }
 .space2 h1{
