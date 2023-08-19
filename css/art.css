@@ -265,7 +265,7 @@ nav ul li a:hover::after{
 
 /*space4*/
 .contacts{
-    min-height: 50vh;
+    min-height: 65vh;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -304,9 +304,11 @@ gap: 20px;
     
 }
 
-
 #contact {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 50px;
     padding-right: 300px;
   }
