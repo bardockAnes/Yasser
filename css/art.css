@@ -428,11 +428,14 @@ footer{
     .nav-list ul.obend{
        right: 40px;
     }
+    .socil{
+        display: none;
+    }
     .socil a:first-child,.socil a:last-child{
-       
+   
         position: fixed;
         top: 0;
-        margin-top: 20px ;
+        margin-top:20px ;
     }
     .socil a:last-child{
         display: block;
