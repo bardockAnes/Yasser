@@ -187,6 +187,14 @@ nav ul li a:hover::after{
     border-radius: 5px;
     border: #FF8000 1px solid;
 }
+.mobileinsta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px;
+    display: none;
+}
 /*spaces*/
 .space2{
     background-color: black;
@@ -393,7 +401,7 @@ footer{
 
 
 
-@media(max-width:600px){
+@media(max-width:900px){
    
     .nav-list{
         position: absolute;
@@ -408,7 +416,7 @@ footer{
         backdrop-filter: blur(5px);
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
        
        transition: right 0.5s;
@@ -428,11 +436,14 @@ footer{
     .nav-list ul.obend{
        right: 40px;
     }
+    .none{
+        display: none;
+    }
     .socil{
         display: none;
     }
     .socil a:first-child,.socil a:last-child{
-   
+
         position: fixed;
         top: 0;
         margin-top:20px ;
@@ -462,6 +473,8 @@ footer{
         }
         nav{
             background-color: transparent;
+            padding-right:10% ;
+            justify-content: flex-end;
         }
 
        
@@ -550,6 +563,11 @@ footer{
             text-transform: uppercase;
             border-radius: 5px;
             border: #FF8000 1px solid;
+        }
+        .mobileinsta{
+            width: 50px;
+            display: flex;
+            
         }
         /*space1 mobile end*/
         /*space2 mobile*/
