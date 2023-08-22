@@ -197,6 +197,7 @@ nav ul li a:hover::after{
 }
 /*spaces*/
 .space2{
+    background: url(/w.svg);
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -232,6 +233,20 @@ nav ul li a:hover::after{
 .space2Content img{
     border-radius: 58% 42% 48% 52% / 39% 36% 64% 61%  ;
 
+}
+.custom-shape-divider-top-1692417908 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+
+
+.custom-shape-divider-top-1692417908 .shape-fill {
+    fill: #FFFFFF;
 }
 /*space3*/
 
