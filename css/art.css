@@ -197,7 +197,6 @@ nav ul li a:hover::after{
 }
 /*spaces*/
 .space2{
-    background: url(/w.svg);
     background-color: black;
     display: flex;
     flex-direction: column;
